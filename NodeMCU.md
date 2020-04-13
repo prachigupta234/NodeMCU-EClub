@@ -109,12 +109,12 @@ http.end();
 ```
 ## Logging Up The Data In a Spreadsheet
 ### Creating Google Script in Google Sheet for Data Logging
-1. Login to the Gmail with your Email ID and Password.
-2. Go to the App Icon In Top Right Corner Highlighted in Green Circle and Click on Docs.
+1. **Login to the Gmail** with your Email ID and Password.
+2. Go to the **App Icon** In Top Right Corner Highlighted in Green Circle and Click on Docs.
 
 ![spread1](/images/spread1.png)
 
-3. The Google Docs screen will appear. Now choose Sheets in the right sidebar.
+3. The Google Docs screen will appear. Now **choose Sheets** in the right sidebar.
 4. Create a New Blank Sheet.
 5. The Blank Sheet will be created with an **Untitled Spreadshee**. Lets assume we rename it to **ESP8266_Temp_Logger**. You can add multiple sheets and can rename it to your choice. Here,we have changed the name of the sheet to **TempSheet**.
 6. After renaming the created Spreadsheet Project and Sheet name, now its time to create a Google script. Now go to **Tools** marked in green circle and click on **<> Script Editor** option marked on red circle.
