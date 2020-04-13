@@ -8,7 +8,9 @@
 ## Setting up the NodeMCU Board on your laptop
 1. Open Aurdino IDE.
 2. Open the File and click on the **Preferences** as shown in the figure.
+![prefrences box](/images/pref.jpg)
 3. In the Additional Boards Manager enter URL- http://arduino.esp8266.com/stable/package_esp8266com_index.json. As highlighted in the figure and enter OK.
+![boards manager](/images/boards.jpg)
 4. Now open the tools in that select **Board: “Arduino/Genuino Uno”** and click on the **Boards Manager** as shown in the figure.
 5. The Boards Manager window opens, and then type in the search box-'ESP8266'. Once we get it, select that module and select version and click on the Install button. When it is installed it shows Installed in the module as shown in the figure and then close the window.
 6. Select the **Board: NodeMCU 1.0 (ESP-12E Module)**.
