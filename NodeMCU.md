@@ -26,7 +26,7 @@
 
 6. Select the **Board: NodeMCU 1.0 (ESP-12E Module)**.
 
-![12](/images/rsz_12e.jpg)
+![12](/images/12e.jpg)
 
 7. Connect NodeMCU to your computer through USB cable.
 8. Then select the **port** and **upload the code**.
