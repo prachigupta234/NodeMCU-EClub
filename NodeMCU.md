@@ -14,7 +14,7 @@
 
 3. In the Additional Boards Manager enter URL- http://arduino.esp8266.com/stable/package_esp8266com_index.json. As highlighted in the figure and enter OK.
 
-![boards](/images/boards.jpg)
+![boards](/images/rsz_boards.jpg)
 
 4. Now open the tools in that select **Board: “Arduino/Genuino Uno”** and click on the **Boards Manager** as shown in the figure.
 
