@@ -63,3 +63,16 @@ After that, we call the begin method on the http object and pass the URL that we
 ```
 http.begin("http://jsonplaceholder.typicode.com/users/1");
 ```
+Then, we send the request by calling the GET method on the http object. This method will return the status of the operation, which is important to store for error handling. If the value is greater than 0, then it’s a standard HTTP code. If the value is less than 0, then it’s a client error, related with the connection. 
+```
+int httpCode = http.GET();
+```
+So, if the code is greater than 0, we can get and print the response payload, by calling the getString method on the http object.
+```
+String payload = http.getString();
+Serial.println(payload);
+```
+Finally, we call the end method. This is very important to close the TCP connection and thus free the resources.
+```
+http.end();
+```
