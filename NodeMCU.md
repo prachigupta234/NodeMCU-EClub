@@ -9,9 +9,22 @@
 1. Open Aurdino IDE.
 2. Open the File and click on the **Preferences** as shown in the figure.
 3. In the Additional Boards Manager enter URL- http://arduino.esp8266.com/stable/package_esp8266com_index.json. As highlighted in the figure and enter OK.
+
+![boards_manager](/images/boards.jpg)
+
+
 4. Now open the tools in that select **Board: “Arduino/Genuino Uno”** and click on the **Boards Manager** as shown in the figure.
+
+![selecting_boards](/images/bs.jpg)
+
 5. The Boards Manager window opens, and then type in the search box-'ESP8266'. Once we get it, select that module and select version and click on the Install button. When it is installed it shows Installed in the module as shown in the figure and then close the window.
+
+![package_installation](/images/package.jpg)
+
 6. Select the **Board: NodeMCU 1.0 (ESP-12E Module)**.
+
+![selecting_12E](/images/12e.jpg)
+
 7. Connect NodeMCU to your computer through USB cable.
 8. Then select the **port** and **upload the code**.
 ## Setting Up Internet Connectivity
@@ -107,4 +120,5 @@ http.end();
 9. Edit the sheet name and the sheet ID from the sheet URL just like shown below. https://docs.google.com/spreadsheets/d/xxxxxxxxyyyyyyzzzzzzzzzz/edit#gid=0, where “xxxxxxxxyyyyyyzzzzzzzzzz” is your Sheet ID.
 10. Save the file. If you want to make your own sheet then change your credentials such as Sheet ID, Sheet Name and Sheet Project Name.
 11. Now we have finished the Setting up Google Script in Spreadsheet. Now it’s time to get the major credential i.e. Google Script ID which will be written in the Arduino Program. If you make mistake in the copying Google Script ID then the data won’t reach to Google Sheet.
+
 
