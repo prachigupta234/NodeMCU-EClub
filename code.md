@@ -1,5 +1,5 @@
 ### Sample code to write the data from a DTH sensor to Google Sheets:
-````
+```
 
 var SS = SpreadsheetApp.openById('1MqT--OKLYDpOHSOjZKXxxG5Y_qti3blfB0URa2Lm1e0');    //Enter Your Sheet ID Got From Sheet URL Link
 var sheet = SS.getSheetByName('TempSheet');      // Enter your sheet name here, In my case it is TempSheet
