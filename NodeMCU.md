@@ -160,6 +160,7 @@ Connect to host. Here it is "script.google.com".
  Serial.println(host); 
 ```
 Try connection for five times and if doesn’t connect after trying five times then drop the connection.
+```
  bool flag = false;
   for (int i = 0; i < 5; i++) {
     int retval = client->connect(host, httpsPort);
@@ -170,11 +171,15 @@ Try connection for five times and if doesn’t connect after trying five times t
     else
       Serial.println("Connection failed. Retrying...");
   }
+```
 We will communicate with server with GET and POST function. GET will be used to read the cells and POST will be used to write into the cells. 
  
-Read the data from whichever sensor you r using and then save that data in a variable and then attach it to the payload.We will send this data to the google sheet using the post method.
+Read the data from whichever sensor you are using and then save that data in a variable and then attach it to the payload.We will send this data to the google sheet using the post method.
+```
 payload = payload_base + "\"" + sheetTemp + "," + sheetHumid + "\"}";
+```
 If client is connected then simply send the Data to Google Sheet by using POST function. Or save it if the data fails to send and count the failure.
+```
   if (client->POST(url2, host, payload)) {
     ;
   }
@@ -183,3 +188,4 @@ If client is connected then simply send the Data to Google Sheet by using POST f
     DPRINT("Error-count while connecting: ");
     DPRINTLN(error_count);
   }
+```
