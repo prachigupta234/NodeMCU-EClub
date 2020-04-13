@@ -8,9 +8,7 @@
 ## Setting up the NodeMCU Board on your laptop
 1. Open Aurdino IDE.
 2. Open the File and click on the **Preferences** as shown in the figure.
-![prefrences box](/images/pref.jpg)
 3. In the Additional Boards Manager enter URL- http://arduino.esp8266.com/stable/package_esp8266com_index.json. As highlighted in the figure and enter OK.
-![boards manager](/images/boards.jpg)
 4. Now open the tools in that select **Board: “Arduino/Genuino Uno”** and click on the **Boards Manager** as shown in the figure.
 5. The Boards Manager window opens, and then type in the search box-'ESP8266'. Once we get it, select that module and select version and click on the Install button. When it is installed it shows Installed in the module as shown in the figure and then close the window.
 6. Select the **Board: NodeMCU 1.0 (ESP-12E Module)**.
@@ -94,5 +92,17 @@ Finally, we call the end method. This is very important to close the TCP connect
 ```
 http.end();
 ```
-
+## Logging Up The Data In a Spreadsheet
+### Creating Google Script in Google Sheet for Data Logging
+1. Login to the Gmail with your Email ID and Password.
+2. Go to the App Icon In Top Right Corner Highlighted in Green Circle and Click on Docs.
+3. The Google Docs screen will appear. Now choose Sheets in the right sidebar.
+4. Create a New Blank Sheet.
+5. The Blank Sheet will be created with an “Untitled Spreadsheet”. Lets assume we rename it to ‘ESP8266_Temp_Logger’. You can add multiple sheets and can rename it to your choice. Here,we have changed the name of the sheet to ‘TempSheet.
+6. After renaming the created Spreadsheet Project and Sheet name, now its time to create a Google script. Now go to ‘Tools’ marked in green circle and click on “<> Script Editor” option marked on red circle.
+7. The new Google Script is created with “Untitled project”. You can rename this Google Script File to any name you want. In my Case I have renamed to “Untitled project” > “TempLog_Script”.
+8. See the code in this file (link to the code file) and understand and try to tinker with it.
+9. Edit the sheet name and the sheet ID from the sheet URL just like shown below. https://docs.google.com/spreadsheets/d/xxxxxxxxyyyyyyzzzzzzzzzz/edit#gid=0, where “xxxxxxxxyyyyyyzzzzzzzzzz” is your Sheet ID.
+10. Save the file. If you want to make your own sheet then change your credentials such as Sheet ID, Sheet Name and Sheet Project Name.
+11. Now we have finished the Setting up Google Script in Spreadsheet. Now it’s time to get the major credential i.e. Google Script ID which will be written in the Arduino Program. If you make mistake in the copying Google Script ID then the data won’t reach to Google Sheet.
 
