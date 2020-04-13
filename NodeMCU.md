@@ -116,8 +116,10 @@ http.end();
 6. After renaming the created Spreadsheet Project and Sheet name, now its time to create a Google script. Now go to ‘Tools’ marked in green circle and click on “<> Script Editor” option marked on red circle.
 ![spread2](/images/spread2.png)
 7. The new Google Script is created with “Untitled project”. You can rename this Google Script File to any name you want. In my Case I have renamed to “Untitled project” > “TempLog_Script”.
+![spread3](/images/spread3.png)
 8. See the code in this file (link to the code file) and understand and try to tinker with it.
 9. Edit the sheet name and the sheet ID from the sheet URL just like shown below. https://docs.google.com/spreadsheets/d/xxxxxxxxyyyyyyzzzzzzzzzz/edit#gid=0, where “xxxxxxxxyyyyyyzzzzzzzzzz” is your Sheet ID.
+![spread4](/images/spread4.png)
 10. Save the file. If you want to make your own sheet then change your credentials such as Sheet ID, Sheet Name and Sheet Project Name.
 11. Now we have finished the Setting up Google Script in Spreadsheet. Now it’s time to get the major credential i.e. Google Script ID which will be written in the Arduino Program. If you make mistake in the copying Google Script ID then the data won’t reach to Google Sheet.
 
