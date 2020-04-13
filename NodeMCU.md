@@ -124,7 +124,7 @@ http.end();
 
 ![spread3](/images/spread3.png)
 
-8. See the code in this file (link to the code file) and understand and try to tinker with it.
+8. See the code in [this file](/code.md) and understand and try to tinker with it.
 9. Edit the sheet name and the sheet ID from the sheet URL just like shown below. https://docs.google.com/spreadsheets/d/xxxxxxxxyyyyyyzzzzzzzzzz/edit#gid=0, where “xxxxxxxxyyyyyyzzzzzzzzzz” is your Sheet ID.
 
 ![spread4](/images/spread4.png)
