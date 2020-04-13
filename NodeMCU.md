@@ -12,4 +12,4 @@
 5. The Boards Manager window opens, and then type in the search box-'ESP8266'. Once we get it, select that module and select version and click on the Install button. When it is installed it shows Installed in the module as shown in the figure and then close the window.
 6. Select the **Board: NodeMCU 1.0 (ESP-12E Module)**.
 7. Connect NodeMCU to your computer through USB cable.
-8. Then select the port and upload the code.
+8. Then select the **port** and **upload the code**.
