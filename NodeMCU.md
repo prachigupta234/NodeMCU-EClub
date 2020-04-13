@@ -202,8 +202,8 @@ client = new HTTPSRedirect(httpsPort);
   client->setPrintResponseBody(true);
   client->setContentTypeHeader("application/json");
 ```
-Connect to host. Here it is "script.google.com".
-Connect to host. Here it is "script.google.com".
+Connect to host. Here it is **script.google.com**.
+Connect to host. Here it is **script.google.com**.
 ``` 
  Serial.print("Connecting to ");
  Serial.println(host); 
@@ -238,3 +238,4 @@ If client is connected then simply send the Data to Google Sheet by using POST f
     DPRINTLN(error_count);
   }
 ```
+And with this,we're done with adding data to the google sheets.
