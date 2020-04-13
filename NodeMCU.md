@@ -116,12 +116,12 @@ http.end();
 
 3. The Google Docs screen will appear. Now choose Sheets in the right sidebar.
 4. Create a New Blank Sheet.
-5. The Blank Sheet will be created with an “Untitled Spreadsheet”. Lets assume we rename it to ‘ESP8266_Temp_Logger’. You can add multiple sheets and can rename it to your choice. Here,we have changed the name of the sheet to ‘TempSheet.
-6. After renaming the created Spreadsheet Project and Sheet name, now its time to create a Google script. Now go to ‘Tools’ marked in green circle and click on “<> Script Editor” option marked on red circle.
+5. The Blank Sheet will be created with an **Untitled Spreadshee**. Lets assume we rename it to **ESP8266_Temp_Logger**. You can add multiple sheets and can rename it to your choice. Here,we have changed the name of the sheet to **TempSheet**.
+6. After renaming the created Spreadsheet Project and Sheet name, now its time to create a Google script. Now go to **Tools** marked in green circle and click on **<> Script Editor** option marked on red circle.
 
 ![spread2](/images/spread2.png)
 
-7. The new Google Script is created with “Untitled project”. You can rename this Google Script File to any name you want. In my Case I have renamed to “Untitled project” > “TempLog_Script”.
+7. The new Google Script is created with **Untitled project**. You can rename this Google Script File to any name you want. In our Case we have renamed to **TempLog_Script**.
 
 ![spread3](/images/spread3.png)
 
@@ -133,37 +133,37 @@ http.end();
 10. Save the file. If you want to make your own sheet then change your credentials such as Sheet ID, Sheet Name and Sheet Project Name.
 11. Now we have finished the Setting up Google Script in Spreadsheet. Now it’s time to get the major credential i.e. Google Script ID which will be written in the Arduino Program. If you make mistake in the copying Google Script ID then the data won’t reach to Google Sheet.
 ### Getting The Google script ID
-1. Go to ‘Publish’ > ‘Deploy as Web App…’
+1. Go to **Publish > Deploy as Web App…**
 
 ![spread5](/images/spread5.png)
 
-2. The “Project version” will be “New”. Select “your email id” in the “Execute the app as” field. Choose “Anyone, even anonymous” in the “Who has access to the app” field. And then Click on “Deploy”.  Note that When republishing please select the latest version and then Deploy again.
+2. The **Project version** will be **New**. Select **your email id** in the **Execute the app as** field. Choose **Anyone, even anonymous** in the **Who has access to the app** field. And then Click on **Deploy**.  Note that When republishing please select the latest version and then Deploy again.
 
 ![spread6](/images/spread6.png)
 
-3. You will have to give the Google permission to deploy it as web app. Just click on “Review Permissions”.
+3. You will have to give the Google permission to deploy it as web app. Just click on **Review Permissions**.
 
 ![spread7](/images/spread7.png)
 
 4. Then choose your Email ID here using which you have created spreadsheet.
-5. Click on “Advanced”.
+5. Click on **Advanced**.
 
 ![spread8](/images/spread8.png)
 
-6. And then click on “Go to ‘your_script_name’(unsafe)”. Here in my case it is “TempLog_Script”.
+6. And then click on **Go to ‘your_script_name’(unsafe)**. Here in my case it is **TempLog_Script**.
 
 ![spread9](/images/spread9.png)
 
-7. Click on “Allow” and this will give the permission to deploy it as web app.
+7. Click on **Allow** and this will give the permission to deploy it as web app.
 
 ![spread10](/images/spread10.png)
 
-8. Now you can see the new screen with a given link and named as “Current web app URL”. This URL contains Google Script ID. Just copy the URL and save it somewhere.
+8. Now you can see the new screen with a given link and named as **Current web app URL**. This URL contains Google Script ID. Just copy the URL and save it somewhere.
 
 ![spread11](/images/spread11.png)
 
 9. Now when you copy the code, the format is like <https://script.google.com/macros/s/____Your_Google _ScriptID___/exec>. 
-So here in this case my Google script ID in this link <https://script.google.com/macros/s/AKfycbxy9wAZKoPIpP53AvqYTFFn5kkqK_-av...> is “AKfycbxy9wAZKoPIpP53AvqYTFFn5kkqK_-avacf2NU_w7ycoEtlkuNt”.
+So here in this case my Google script ID in this link <https://script.google.com/macros/s/AKfycbxy9wAZKoPIpP53AvqYTFFn5kkqK_-av...> is **AKfycbxy9wAZKoPIpP53AvqYTFFn5kkqK_-avacf2NU_w7ycoEtlkuNt**.
 Just save this Google Script to some place.
 ### Programming NodeMCU To Send Data To Google Sheets
 1. The library ESP8266WiFi.h is used for accessing the functions of ESP8266, the HTTPSRedirect.h library is used for connecting to Google Spreadsheet Server and DebugMacros.h is used to debug the data receiving.
