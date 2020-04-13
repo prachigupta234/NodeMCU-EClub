@@ -1,7 +1,7 @@
 # NodeMCU
 ## Introduction to NodeMCU and IOT
 ### What is NodeMCU?
-![nodemcu](/images/nodemcu.jpg)
+![nodemcu](/images/nodemcu.jpg =700x583)
 **NodeMCU** is an open source development board and firmware based in the widely used ESP8266-12E WiFi module. With just a few lines of code you can establish a WiFi connection and define input/output pins according to your needs exactly like arduino, turning your ESP8266 into a web server and a lot more. It is the WiFi equivalent of ethernet module. Now you have Internet of Things (IOT) real tool.
 ### What is IOT?
 **The Internet of Things** is actually a pretty simple concept, it means taking all the things in the world and connecting them to the internet. So,The Internet of Things, or IOT, refers to the billions of physical devices around the world that are now connected to the internet, all collecting and sharing data.
