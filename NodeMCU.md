@@ -253,6 +253,7 @@ If client is connected then simply send the Data to Google Sheet by using POST f
 **And with this, we're done with adding data to the google sheets.**
 
 ## Citations
+* https://www.iotforall.com/what-is-iot-simple-explanation/
 * https://cityos-air.readme.io/docs/esp8266-nodemcu
 * https://www.instructables.com/id/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/
 * https://techtutorialsx.com/2016/07/21/esp8266-post-requests/   
