@@ -1,6 +1,9 @@
 # NodeMCU
 ## Index
-1. [Introduction to NodeMCU and IOT](
+1. [Introduction to NodeMCU and IOT](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#introduction-to-nodemcu-and-iot)
+   - [What is NodeMCU?](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#what-is-nodemcu)
+   - [What is IOT?](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#what-is-iot)
+2. [Setting up the NodeMCU Board on your laptop](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#setting-up-the-nodemcu-board-on-your-laptop)
 ## Introduction to NodeMCU and IOT
 ### What is NodeMCU?
 ![NodeMCU](/images/nodemcu1.png)
