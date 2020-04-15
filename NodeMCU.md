@@ -4,6 +4,13 @@
    - [What is NodeMCU?](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#what-is-nodemcu)
    - [What is IOT?](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#what-is-iot)
 2. [Setting up the NodeMCU Board on your laptop](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#setting-up-the-nodemcu-board-on-your-laptop)
+3. [Setting Up Internet Connectivity](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#setting-up-internet-connectivity)
+4. [Setting Up Post Request](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#setting-up-post-request)
+5. [Setting Up Get Requests](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#setting-up-get-requests)
+6. [Logging Up The Data In a Spreadsheet](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#logging-up-the-data-in-a-spreadsheet)
+   - [Creating Google Script in Google Sheet for Data Logging](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#creating-google-script-in-google-sheet-for-data-logging)
+   - [Getting The Google script ID](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#getting-the-google-script-id)
+   - [Programming NodeMCU To Send Data To Google Sheets](https://github.com/prachigupta234/NodeMCU-EClub/blob/prachi/NodeMCU.md#programming-nodemcu-to-send-data-to-google-sheets)
 ## Introduction to NodeMCU and IOT
 ### What is NodeMCU?
 ![NodeMCU](/images/nodemcu1.png)
